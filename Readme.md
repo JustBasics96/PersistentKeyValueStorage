@@ -2,7 +2,7 @@
 This is a Libary to manage Key Value Storages and store them in a database.
 
 ## Supported Storages
-* In Memory | NonPersitent
+* In Memory | NonPersistent
 * Azure Mongo DB / CosmosDB
 
 ## How to Use
