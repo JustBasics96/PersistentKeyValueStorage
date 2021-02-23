@@ -6,7 +6,17 @@ This is a Libary to manage Key Value Storages and store them in a database.
 * Azure Mongo DB / CosmosDB
 
 ## How to Use
-
+### Configuration Mongo
+```json
+{
+  "Connections":{
+    "PersistentKeyValueStorage":{
+      "ConnectionString":"",
+      "Database":"dbName"
+      }
+   }
+}
+```
 ### Net 5 DI
 ```C#
   services.AddSingleton<IPersistentKeyValueStorage, Mongo>();
